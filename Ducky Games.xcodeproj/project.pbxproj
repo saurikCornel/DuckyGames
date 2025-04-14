@@ -24,15 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FAEFB66B2DAD725B00E44311 /* Ducky Games +.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ducky Games +.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAEFB67B2DAD725D00E44311 /* Ducky Games +Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ducky Games +Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAEFB6852DAD725D00E44311 /* Ducky Games +UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ducky Games +UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFB66B2DAD725B00E44311 /* Ducky Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ducky Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFB67B2DAD725D00E44311 /* Ducky GamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ducky GamesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFB6852DAD725D00E44311 /* Ducky GamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ducky GamesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FAEFB66D2DAD725B00E44311 /* Ducky Games + */ = {
+		FAEFB66D2DAD725B00E44311 /* Ducky Games */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Ducky Games +";
+			path = "Ducky Games";
 			sourceTree = "<group>";
 		};
 		FAEFB67E2DAD725D00E44311 /* Ducky Games +Tests */ = {
@@ -75,7 +75,7 @@
 		FAEFB6622DAD725B00E44311 = {
 			isa = PBXGroup;
 			children = (
-				FAEFB66D2DAD725B00E44311 /* Ducky Games + */,
+				FAEFB66D2DAD725B00E44311 /* Ducky Games */,
 				FAEFB67E2DAD725D00E44311 /* Ducky Games +Tests */,
 				FAEFB6882DAD725D00E44311 /* Ducky Games +UITests */,
 				FAEFB66C2DAD725B00E44311 /* Products */,
@@ -85,9 +85,9 @@
 		FAEFB66C2DAD725B00E44311 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAEFB66B2DAD725B00E44311 /* Ducky Games +.app */,
-				FAEFB67B2DAD725D00E44311 /* Ducky Games +Tests.xctest */,
-				FAEFB6852DAD725D00E44311 /* Ducky Games +UITests.xctest */,
+				FAEFB66B2DAD725B00E44311 /* Ducky Games.app */,
+				FAEFB67B2DAD725D00E44311 /* Ducky GamesTests.xctest */,
+				FAEFB6852DAD725D00E44311 /* Ducky GamesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAEFB66A2DAD725B00E44311 /* Ducky Games + */ = {
+		FAEFB66A2DAD725B00E44311 /* Ducky Games */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAEFB68F2DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +" */;
+			buildConfigurationList = FAEFB68F2DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games" */;
 			buildPhases = (
 				FAEFB6672DAD725B00E44311 /* Sources */,
 				FAEFB6682DAD725B00E44311 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FAEFB66D2DAD725B00E44311 /* Ducky Games + */,
+				FAEFB66D2DAD725B00E44311 /* Ducky Games */,
 			);
-			name = "Ducky Games +";
+			name = "Ducky Games";
 			packageProductDependencies = (
 			);
 			productName = "Ducky Games +";
-			productReference = FAEFB66B2DAD725B00E44311 /* Ducky Games +.app */;
+			productReference = FAEFB66B2DAD725B00E44311 /* Ducky Games.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FAEFB67A2DAD725D00E44311 /* Ducky Games +Tests */ = {
+		FAEFB67A2DAD725D00E44311 /* Ducky GamesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAEFB6922DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +Tests" */;
+			buildConfigurationList = FAEFB6922DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky GamesTests" */;
 			buildPhases = (
 				FAEFB6772DAD725D00E44311 /* Sources */,
 				FAEFB6782DAD725D00E44311 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				FAEFB67E2DAD725D00E44311 /* Ducky Games +Tests */,
 			);
-			name = "Ducky Games +Tests";
+			name = "Ducky GamesTests";
 			packageProductDependencies = (
 			);
 			productName = "Ducky Games +Tests";
-			productReference = FAEFB67B2DAD725D00E44311 /* Ducky Games +Tests.xctest */;
+			productReference = FAEFB67B2DAD725D00E44311 /* Ducky GamesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FAEFB6842DAD725D00E44311 /* Ducky Games +UITests */ = {
+		FAEFB6842DAD725D00E44311 /* Ducky GamesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAEFB6952DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +UITests" */;
+			buildConfigurationList = FAEFB6952DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky GamesUITests" */;
 			buildPhases = (
 				FAEFB6812DAD725D00E44311 /* Sources */,
 				FAEFB6822DAD725D00E44311 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				FAEFB6882DAD725D00E44311 /* Ducky Games +UITests */,
 			);
-			name = "Ducky Games +UITests";
+			name = "Ducky GamesUITests";
 			packageProductDependencies = (
 			);
 			productName = "Ducky Games +UITests";
-			productReference = FAEFB6852DAD725D00E44311 /* Ducky Games +UITests.xctest */;
+			productReference = FAEFB6852DAD725D00E44311 /* Ducky GamesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FAEFB6662DAD725B00E44311 /* Build configuration list for PBXProject "Ducky Games +" */;
+			buildConfigurationList = FAEFB6662DAD725B00E44311 /* Build configuration list for PBXProject "Ducky Games" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAEFB66A2DAD725B00E44311 /* Ducky Games + */,
-				FAEFB67A2DAD725D00E44311 /* Ducky Games +Tests */,
-				FAEFB6842DAD725D00E44311 /* Ducky Games +UITests */,
+				FAEFB66A2DAD725B00E44311 /* Ducky Games */,
+				FAEFB67A2DAD725D00E44311 /* Ducky GamesTests */,
+				FAEFB6842DAD725D00E44311 /* Ducky GamesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		FAEFB67D2DAD725D00E44311 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAEFB66A2DAD725B00E44311 /* Ducky Games + */;
+			target = FAEFB66A2DAD725B00E44311 /* Ducky Games */;
 			targetProxy = FAEFB67C2DAD725D00E44311 /* PBXContainerItemProxy */;
 		};
 		FAEFB6872DAD725D00E44311 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAEFB66A2DAD725B00E44311 /* Ducky Games + */;
+			target = FAEFB66A2DAD725B00E44311 /* Ducky Games */;
 			targetProxy = FAEFB6862DAD725D00E44311 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,10 +395,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ducky Games +/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Ducky Games/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ducky Games +";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ducky Games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -429,10 +429,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ducky Games +/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Ducky Games/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Ducky Games +";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ducky Games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -470,7 +470,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ducky Games +.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ducky Games +";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ducky Games.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ducky Games";
 			};
 			name = Debug;
 		};
@@ -488,7 +488,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ducky Games +.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ducky Games +";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ducky Games.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ducky Games";
 			};
 			name = Release;
 		};
@@ -527,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAEFB6662DAD725B00E44311 /* Build configuration list for PBXProject "Ducky Games +" */ = {
+		FAEFB6662DAD725B00E44311 /* Build configuration list for PBXProject "Ducky Games" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAEFB68D2DAD725D00E44311 /* Debug */,
@@ -536,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAEFB68F2DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +" */ = {
+		FAEFB68F2DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAEFB6902DAD725D00E44311 /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAEFB6922DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +Tests" */ = {
+		FAEFB6922DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky GamesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAEFB6932DAD725D00E44311 /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAEFB6952DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +UITests" */ = {
+		FAEFB6952DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky GamesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAEFB6962DAD725D00E44311 /* Debug */,

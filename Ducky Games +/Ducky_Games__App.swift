@@ -11,7 +11,7 @@ import SwiftUI
 struct Ducky_Games__App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DuckyScreen()
         }
     }
 }

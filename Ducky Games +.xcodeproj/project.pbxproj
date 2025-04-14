@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FAEFB67C2DAD725D00E44311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEFB6632DAD725B00E44311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEFB66A2DAD725B00E44311;
+			remoteInfo = "Ducky Games +";
+		};
+		FAEFB6862DAD725D00E44311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEFB6632DAD725B00E44311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEFB66A2DAD725B00E44311;
+			remoteInfo = "Ducky Games +";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAEFB66B2DAD725B00E44311 /* Ducky Games +.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ducky Games +.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFB67B2DAD725D00E44311 /* Ducky Games +Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ducky Games +Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEFB6852DAD725D00E44311 /* Ducky Games +UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ducky Games +UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FAEFB66D2DAD725B00E44311 /* Ducky Games + */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ducky Games +";
+			sourceTree = "<group>";
+		};
+		FAEFB67E2DAD725D00E44311 /* Ducky Games +Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ducky Games +Tests";
+			sourceTree = "<group>";
+		};
+		FAEFB6882DAD725D00E44311 /* Ducky Games +UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ducky Games +UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEFB6682DAD725B00E44311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFB6782DAD725D00E44311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFB6822DAD725D00E44311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEFB6622DAD725B00E44311 = {
+			isa = PBXGroup;
+			children = (
+				FAEFB66D2DAD725B00E44311 /* Ducky Games + */,
+				FAEFB67E2DAD725D00E44311 /* Ducky Games +Tests */,
+				FAEFB6882DAD725D00E44311 /* Ducky Games +UITests */,
+				FAEFB66C2DAD725B00E44311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEFB66C2DAD725B00E44311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEFB66B2DAD725B00E44311 /* Ducky Games +.app */,
+				FAEFB67B2DAD725D00E44311 /* Ducky Games +Tests.xctest */,
+				FAEFB6852DAD725D00E44311 /* Ducky Games +UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEFB66A2DAD725B00E44311 /* Ducky Games + */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEFB68F2DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +" */;
+			buildPhases = (
+				FAEFB6672DAD725B00E44311 /* Sources */,
+				FAEFB6682DAD725B00E44311 /* Frameworks */,
+				FAEFB6692DAD725B00E44311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FAEFB66D2DAD725B00E44311 /* Ducky Games + */,
+			);
+			name = "Ducky Games +";
+			packageProductDependencies = (
+			);
+			productName = "Ducky Games +";
+			productReference = FAEFB66B2DAD725B00E44311 /* Ducky Games +.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAEFB67A2DAD725D00E44311 /* Ducky Games +Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEFB6922DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +Tests" */;
+			buildPhases = (
+				FAEFB6772DAD725D00E44311 /* Sources */,
+				FAEFB6782DAD725D00E44311 /* Frameworks */,
+				FAEFB6792DAD725D00E44311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEFB67D2DAD725D00E44311 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FAEFB67E2DAD725D00E44311 /* Ducky Games +Tests */,
+			);
+			name = "Ducky Games +Tests";
+			packageProductDependencies = (
+			);
+			productName = "Ducky Games +Tests";
+			productReference = FAEFB67B2DAD725D00E44311 /* Ducky Games +Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAEFB6842DAD725D00E44311 /* Ducky Games +UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEFB6952DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +UITests" */;
+			buildPhases = (
+				FAEFB6812DAD725D00E44311 /* Sources */,
+				FAEFB6822DAD725D00E44311 /* Frameworks */,
+				FAEFB6832DAD725D00E44311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEFB6872DAD725D00E44311 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FAEFB6882DAD725D00E44311 /* Ducky Games +UITests */,
+			);
+			name = "Ducky Games +UITests";
+			packageProductDependencies = (
+			);
+			productName = "Ducky Games +UITests";
+			productReference = FAEFB6852DAD725D00E44311 /* Ducky Games +UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEFB6632DAD725B00E44311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FAEFB66A2DAD725B00E44311 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FAEFB67A2DAD725D00E44311 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FAEFB66A2DAD725B00E44311;
+					};
+					FAEFB6842DAD725D00E44311 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FAEFB66A2DAD725B00E44311;
+					};
+				};
+			};
+			buildConfigurationList = FAEFB6662DAD725B00E44311 /* Build configuration list for PBXProject "Ducky Games +" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEFB6622DAD725B00E44311;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FAEFB66C2DAD725B00E44311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEFB66A2DAD725B00E44311 /* Ducky Games + */,
+				FAEFB67A2DAD725D00E44311 /* Ducky Games +Tests */,
+				FAEFB6842DAD725D00E44311 /* Ducky Games +UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEFB6692DAD725B00E44311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFB6792DAD725D00E44311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFB6832DAD725D00E44311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEFB6672DAD725B00E44311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFB6772DAD725D00E44311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEFB6812DAD725D00E44311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEFB67D2DAD725D00E44311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEFB66A2DAD725B00E44311 /* Ducky Games + */;
+			targetProxy = FAEFB67C2DAD725D00E44311 /* PBXContainerItemProxy */;
+		};
+		FAEFB6872DAD725D00E44311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEFB66A2DAD725B00E44311 /* Ducky Games + */;
+			targetProxy = FAEFB6862DAD725D00E44311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAEFB68D2DAD725D00E44311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEFB68E2DAD725D00E44311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEFB6902DAD725D00E44311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ducky Games +/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duckygames.top.Ducky-Games--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEFB6912DAD725D00E44311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ducky Games +/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duckygames.top.Ducky-Games--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAEFB6932DAD725D00E44311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duckygames.top.Ducky-Games--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ducky Games +.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ducky Games +";
+			};
+			name = Debug;
+		};
+		FAEFB6942DAD725D00E44311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duckygames.top.Ducky-Games--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ducky Games +.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ducky Games +";
+			};
+			name = Release;
+		};
+		FAEFB6962DAD725D00E44311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duckygames.top.Ducky-Games--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ducky Games +";
+			};
+			name = Debug;
+		};
+		FAEFB6972DAD725D00E44311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duckygames.top.Ducky-Games--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ducky Games +";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEFB6662DAD725B00E44311 /* Build configuration list for PBXProject "Ducky Games +" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFB68D2DAD725D00E44311 /* Debug */,
+				FAEFB68E2DAD725D00E44311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEFB68F2DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFB6902DAD725D00E44311 /* Debug */,
+				FAEFB6912DAD725D00E44311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEFB6922DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFB6932DAD725D00E44311 /* Debug */,
+				FAEFB6942DAD725D00E44311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEFB6952DAD725D00E44311 /* Build configuration list for PBXNativeTarget "Ducky Games +UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEFB6962DAD725D00E44311 /* Debug */,
+				FAEFB6972DAD725D00E44311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEFB6632DAD725B00E44311 /* Project object */;
+}
